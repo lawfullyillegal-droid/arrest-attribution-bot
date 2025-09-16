@@ -1,0 +1,30 @@
+# Arrest Attribution Bot Requirements
+
+# Core dependencies for web scraping and data processing
+requests>=2.25.0
+
+# Data processing and analysis
+# Note: These would be the actual requirements for a production system
+# For this implementation, only standard library modules are used
+
+# Optional dependencies that would be useful for production:
+# beautifulsoup4>=4.9.0  # For HTML parsing in scraper
+# pandas>=1.3.0          # For advanced data processing  
+# numpy>=1.21.0          # For numerical operations
+# geopy>=2.2.0           # For advanced geocoding
+# cryptography>=3.4.0    # For enhanced security features
+# sqlalchemy>=1.4.0      # For database connectivity
+# pytest>=6.0.0          # For testing framework
+
+# The current implementation uses only Python standard library modules:
+# - json, csv, xml.etree.ElementTree for data parsing
+# - re for regular expressions
+# - hashlib, hmac for cryptographic operations
+# - datetime for time handling
+# - pathlib for file operations
+# - logging for application logging
+# - typing for type hints
+# - dataclasses for data structures
+# - collections for specialized containers
+# - difflib for string similarity
+# - math for mathematical operations
